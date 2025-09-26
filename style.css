@@ -495,7 +495,7 @@ box-shadow: 0 0 25px var(--main-color),
 .about-content {
   flex: 2 1 400px;
   max-width: 700px;
-  margin: 0 auto;
+  margin: 0 150px;
   display: flex;
   flex-direction: column;
   align-items: center;
