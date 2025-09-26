@@ -548,7 +548,7 @@ box-shadow: 0 0 25px var(--main-color),
 
 .project-card{
   min-width: 450px ;
-  min-height: 450px;
+  min-height: 500px;
   height: auto;
   display: flex;
   flex-direction: column;
