@@ -11,15 +11,14 @@
 <body>
 
   <nav class="navbar">
-    <a href="#" class="logo">Max Event BTL</a>
+    <a href="#" class="logo">Valentina Zuluaga</a>
     <div class="menu-icon" id="menu-icon">
       <i class='bx bx-menu'></i>
     </div>
     <ul>
       <li><a href="#home" data-i18n="nav_home">Home</a></li>
       <li><a href="#about" data-i18n="nav_about">About</a></li>
-      <li><a href="#portfolio" data-i18n="nav_portfolio">Portfolio</a></li>
-      <li><a href="#service" data-i18n="nav_service">Service</a></li>
+      <li><a href="#portfolio" data-i18n="nav_portfolio">Service</a></li>
       <li><a href="#contact" data-i18n="nav_contact">Contact</a></li>
     </ul>
     <!-- Botón de idioma eliminado -->
@@ -70,7 +69,7 @@
 
     <section class="about" id="about">
       <div class="about-img">
-        <img src="assets/logo.jpg" alt="profile" />
+        <img src="assets/logo.png" alt="profile" />
       </div>
       <div class="about-content">
         <h2 class="heading" data-i18n="about_title">About <span class="bg-gradient-1">Us</span></h2>
@@ -82,40 +81,37 @@
         </a>
       </div>
     </section>
+    <section id="portfolio" class="projects">
+      <h2 class="heading" data-i18n="projects_title"><span class="bg-gradient-1"></span></h2>
+      <div class="projects-box">
+        <div class="project-card">
+          <img src="/assets/maquillaje.png" alt="logo">
+          <h3 data-i18n="project1_title"></h3>
+          <p data-i18n="project1_desc">
 
-    <section class="services" id="service">
-  <h2 class="heading" data-i18n="services_title"></h2>
-      <div class="services-container">
-          <div class="service-box">
-            <div class="service-info">
-              <i class='bx bx-calendar-star' ></i>
-              <h4 data-i18n="service1_title"></h4>
-              <p data-i18n="service1_desc">
-                
-              </p>
-            </div>
-          </div>
-          <div class="service-box">
-            <div class="service-info">
-                <i class='bx bxs-user-badge' ></i>
-                <h4 data-i18n="service2_title"></h4>
-                <p data-i18n="service2_desc">
-                 
-                </p>
-            </div>
-          </div>
-          <div class="service-box">
-            <div class="service-info">
-                <i class='bx bxs-discount'></i>
-                <h4 data-i18n="service3_title"></h4>
-                <p data-i18n="service3_desc">
-                  
-                </p>
-            </div>
-          </div>
-          
+          </p><a href="https://www.instagram.com/stories/highlights/18063530177263691" target="_blank" data-i18n="project1_link">Conoce mas</a>
+        </div>
+
+        <div class="project-card">
+          <img src="/assets/peinados.png" alt="eco">
+          <h3 data-i18n="project2_title"></h3>
+          <p data-i18n="project2_desc">
+            
+          </p>
+          <a href="https://www.instagram.com/stories/highlights/18291042772240026" data-i18n="project2_link">Conoce mas</a>
+        </div>
+        <div class="project-card">
+            <img src="/assets/models.jpg" alt="solutions">
+            <h3 data-i18n="project3_title"></h3>
+            <p data-i18n="project3_desc">
+              
+            </p>
+            <a href="http://www.vzmodels.com/" data-i18n="project3_link">Conoce mas</a>
+        </div>
       </div>
     </section>
+
+    
 
     <section class="contact" id="contact">
   <h2 class="heading" data-i18n="contact_title">Contact <span class="bg-gradient-1">Us</span></h2>
@@ -123,41 +119,29 @@
     <div class="social-icons">
       <ul>
         <li>
-          <a href="https://wa.me/message/ITYUISRNMCR4O1" target="_blank" title="Send WhatsApp">
+          <a href="https://api.whatsapp.com/send?phone=573156886805" target="_blank" title="Send WhatsApp">
             <i class='bx bxl-whatsapp' ></i>
           </a>
           <span class="tag-contact" data-i18n="contact_phone">3</span>
         </li>
         <li>
-          <a href="mailto:creativo@maxeventbtl.com.co">
-            <i class='bx bxl-gmail'></i>
-          </a>
-          <span class="tag-contact" data-i18n="contact_email">creativo@maxeventbtl.com.co</span>
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/company/max-event-colombia/">
-            <i class='bx bxl-linkedin'></i>
-          </a>
-          <span class="tag-contact" data-i18n="contact_linkedin">e@gmail.com</span>
-        </li>
-        <li>
-          <a href="https://www.instagram.com/maxeventbtl/" target="_blank">
+          <a href="https://www.instagram.com/vzuluagamakeup/" target="_blank">
             <i class='bx bxl-instagram'></i>
           </a>
           <span class="tag-contact" data-i18n="contact_instagram">@</span>
         </li>
         <li>
-          <a href="https://www.facebook.com/maxeventbtlsas">
-            <i class='bx bxl-facebook'></i>
+          <a href="https://www.tiktok.com/@vzuluagamakeup" target="_blank">
+            <i class='bx bxl-tiktok'></i>
           </a>
-          <span class="tag-contact" data-i18n="contact_facebook">Max Event BTL</span>
+          <span class="tag-contact" data-i18n="contact_tiktok">@vzuluagamakeup</span>
         </li>
       </ul>
     </div>
       <div class="home-img">
             <div class="img-box">
                 <div class="img-item">
-                    <img src="/assets/logo.jpg" alt="logo">
+                    <img src="/assets/logo.png" alt="logo">
                 </div>
             </div>
         </div>
@@ -176,7 +160,7 @@
     const traduccionesES = {
       nav_home: "Inicio",
       nav_about: "Acerca",
-      nav_portfolio: "Portafolio",
+      nav_portfolio: "Servicios",
       nav_service: "Servicios",
       nav_contact: "Contacto",
 
@@ -187,23 +171,23 @@
       home_desc: "Realza tu belleza, refleja tu esencia",
       home_save_contact: "Guardar contacto",
 
-      about_title: "<span class='bg-gradient-1'>Sobre Nosotros</span>",
-      about_desc: "En Max Event, llevamos 18 años diseñando y produciendo eventos que conectan marcas con sus audiencias de manera auténtica. Nos especializamos en eventos corporativos, activaciones de marca, congresos, ferias y experiencias personalizadas, siempre con el compromiso de generar impacto y recordar que cada detalle cuenta.",
+      about_title: "<span class='bg-gradient-1'>Sobre Mi</span>",
+      about_desc: "Con más de 10 años de experiencia en el mundo del maquillaje y la creación de peinados, he dedicado mi carrera a resaltar la belleza única de cada persona. Mi pasión y dedicación me han permitido trabajar en todo tipo de estilos, desde looks naturales y frescos hasta producciones artísticas y glamorosas. Cada rostro y cada cabello son para mí un lienzo en blanco donde combino técnica, creatividad y sensibilidad, logrando resultados que no solo transforman la apariencia, sino también la confianza de mis clientes.",
       about_btn: "Contáctame",
 
-      projects_title: "Proyectos <span class='bg-gradient-1'>Destacados</span>",
-      project1_title: "Roottco store",
-      project1_desc: "",
+      projects_title: " <span class='bg-gradient-1'>Servicios</span>",
+      project1_title: "Maquillaje",
+      project1_desc: "Resalta tu belleza con técnicas que se adaptan a tu estilo y ocasión. Desde lo natural hasta lo más glamoroso, tu mejor versión empieza aquí.",
       project1_img: "fitline.jpg",
       project1_link: "Conoce mas",
 
-      project2_title: "Agua Marina",
-      project2_desc: "",
+      project2_title: "Peinados",
+      project2_desc: "Peinados creativos y elegantes que complementan tu look y realzan tu personalidad en cada evento especial.",
       project2_img: "iml.jpg",
       project2_link: "Conoce mas",
 
-      project3_title: "Dilusso",
-      project3_desc: "",
+      project3_title: "VZ Models",
+      project3_desc: "Contrata modelos y creadoras de contenido profesionales para catálogos, comerciales, reels, tiktoks y fotografías de tu marca.",
       project3_img: "celion.jpg",
       project3_link: "Conoce mas",
 
@@ -218,21 +202,21 @@
       service4_desc: "",
 
       contact_title: "Contáctanos <span class='bg-gradient-1'>Ahora</span>",
-      contact_phone: "3104665455",
+      contact_phone: "3156568805",
       contact_email: "creativo@maxeventbtl.com.co",
       contact_web: "roottcostore.com",
       contact_web2:"aguamarinaoficial.com",
       contact_web3:"dilusso.com.co",
-      contact_instagram: "@maxeventbtl",
-      contact_linkedin: "Max Event Colombia",
-      contact_facebook: "Max Event BTL",
+      contact_instagram: "@vzuluagamakeup",
+     
+      contact_tiktok: "@vzuluagamakeup",
 
       form_name: "Tu Nombre",
       form_email: "Tu Correo",
       form_message: "Tu Mensaje",
       form_send: "Enviar Mensaje",
 
-      footer_copy: "© Max Event BTL, Medellin 2025"
+      footer_copy: "© Valentina Zuluaga, Medellin 2025"
     };
 
     // Aplica solo español
